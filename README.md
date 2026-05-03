@@ -35,6 +35,8 @@ Returns are first-party data only — no vendor labels, no AI-generated summarie
 
 ## Install
 
+### Direct (recommended)
+
 In Claude Code:
 
 ```bash
@@ -59,6 +61,16 @@ URL: https://mcp.btcwhalealerts.com/mcp
 ```
 
 OAuth 2.1 with anonymous Free tier — your client is auto-granted Free-tier access on first connect, no signup, no API key to copy-paste. Upgrade flow is in-product if you want paid-tier access.
+
+### Via Smithery Gateway (alternative)
+
+If your MCP client has trouble with OAuth discovery or you want Smithery's built-in observability:
+
+```bash
+claude mcp add btc-whale-intelligence https://swiss-whale-intelligence.run.tools
+```
+
+Smithery's gateway proxies the connection and handles OAuth on behalf of the client. Slightly more latency, but smoother for some setups.
 
 ---
 
