@@ -7,6 +7,10 @@
 📜 **Methodology whitepaper** (CC-BY-4.0, SHA256-pinned): https://btcwhalealerts.com/whitepaper/v1.md
 ✅ **Status**: Production. [Listed in the official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=swiss-whale) as `io.github.alpineflow-io/swiss-whale-intelligence`.
 
+[![smithery badge](https://smithery.ai/badge/avk359/swiss-whale-intelligence)](https://smithery.ai/servers/avk359/swiss-whale-intelligence)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-active-brightgreen)](https://registry.modelcontextprotocol.io/v0/servers?search=swiss-whale)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository contains the **public metadata** for the Swiss Whale Intelligence MCP server: documentation, install instructions, tool inventory, and methodology references. The server itself is hosted at `mcp.btcwhalealerts.com` — no clone, no install, no Docker required to use it.
 
 ---
