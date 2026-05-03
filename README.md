@@ -8,6 +8,7 @@
 ✅ **Status**: Production. [Listed in the official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=swiss-whale) as `io.github.alpineflow-io/swiss-whale-intelligence`.
 
 [![smithery badge](https://smithery.ai/badge/avk359/swiss-whale-intelligence)](https://smithery.ai/servers/avk359/swiss-whale-intelligence)
+[![Glama Score](https://glama.ai/mcp/servers/alpineflow-io/swiss-whale-intelligence-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alpineflow-io/swiss-whale-intelligence-mcp)
 [![MCP Registry](https://img.shields.io/badge/MCP_Registry-active-brightgreen)](https://registry.modelcontextprotocol.io/v0/servers?search=swiss-whale)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
