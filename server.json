@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.alpineflow-io/swiss-whale-intelligence",
+  "title": "Swiss Whale Intelligence",
+  "description": "Methodology-transparent BTC + ETH whale forensics. 30 tools, anonymous OAuth 2.1 Free tier.",
+  "version": "1.0.0",
+  "websiteUrl": "https://btcwhalealerts.com/mcp/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.btcwhalealerts.com/mcp"
+    }
+  ]
+}
