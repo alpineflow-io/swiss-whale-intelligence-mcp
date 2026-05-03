@@ -1,0 +1,29 @@
+# smithery.yaml — Smithery deployment config for Swiss Whale Intelligence MCP
+#
+# This server is a hosted remote MCP service exposed at https://mcp.btcwhalealerts.com/mcp.
+# No client-side configuration is required (no API keys, no environment variables).
+# Authentication uses OAuth 2.1 with anonymous Free tier — clients are auto-granted
+# Free-tier access on first connect via the standard OAuth discovery flow.
+#
+# This file documents the deployment shape for human and tool readers. For Smithery's
+# specific deployment payload, see the dashboard at:
+#   https://smithery.ai/servers/avk359/swiss-whale-intelligence
+
+runtime: "remote"
+deploymentUrl: "https://mcp.btcwhalealerts.com/mcp"
+authentication:
+  type: "oauth2.1"
+  anonymousFreeTier: true
+  discoveryUrl: "https://mcp.btcwhalealerts.com/.well-known/oauth-authorization-server"
+
+# Empty configSchema = no user-supplied config required. Clearer than omitting,
+# avoids "No config schema provided" deployment warnings.
+configSchema:
+  type: "object"
+  properties: {}
+  required: []
+  additionalProperties: false
+
+# Tool inventory is auto-discovered via MCP `tools/list` after OAuth handshake.
+toolCount: 30
+resourceCount: 7
